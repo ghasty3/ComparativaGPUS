@@ -1,0 +1,705 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Comparativa de Tarjetas Gráficas</title>
+   <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #121212;
+            color: #e0e0e0;
+            margin: 0;
+            padding: 20px;
+        }
+        .container {
+            max-width: 1200px;
+            margin: auto;
+            background-color: #1e1e1e;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
+            border-radius: 8px;
+        }
+        h1 {
+            text-align: center;
+            color: #ffffff;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+        th, td {
+            text-align: left;
+            padding: 12px;
+            border-bottom: 1px solid #555;
+        }
+        th {
+            background-color: #333;
+            cursor: pointer;
+            font-weight: bold;
+            position: relative;
+        }
+        th:hover {
+            background-color: #444;
+        }
+        th::after {
+            content: '';
+            position: absolute;
+            right: 10px;
+            top: 50%;
+            transform: translateY(-50%);
+            border: 5px solid transparent;
+        }
+        th.asc::after {
+            border-bottom-color: #e0e0e0;
+            top: 40%;
+        }
+        th.desc::after {
+            border-top-color: #e0e0e0;
+            top: 60%;
+        }
+        tbody tr:hover {
+            background-color: #2a2a2a;
+        }
+        .amd {
+            color: #E21425;
+            font-weight: bold;
+        }
+        .nvidia {
+            color: #76B900;
+            font-weight: bold;
+        }
+        .intel {
+            color: #0071C5;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Comparativa Detallada de Tarjetas Gráficas</h1>
+        <p>Haz clic en el encabezado de las columnas para ordenar la tabla. Los colores de fondo indican si el valor es "bueno" (verde) o "malo" (rojo).</p>
+        
+        <table id="gpuTable">
+            <thead>
+                <tr>
+                    <th data-type="string">Tarjeta Gráfica</th>
+                    <th data-type="number" data-color-scale="true" data-color-direction="low-is-good">Precio (€)</th>
+                    <th data-type="number" data-color-scale="true" data-color-direction="high-is-good">Rendimiento Relativo (%)</th>
+                    <th data-type="number" data-color-scale="true" data-color-direction="high-is-good">Rendimiento Relativo con DLSS (%)</th>
+                    <th data-type="number" data-color-scale="true" data-color-direction="low-is-good">Precio por Rendimiento</th>
+                    <th data-type="number" data-color-scale="true" data-color-direction="low-is-good">Precio por Rendimiento con DLSS</th>
+                    <th data-type="number" data-color-scale="true" data-color-direction="low-is-good">TDP (W)</th>
+                    <th data-type="string">DirectX</th>
+                    <th data-type="number" data-color-scale="true" data-color-direction="high-is-good">VRAM (GB)</th>
+                    <th data-type="string">Features Adicionales</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><span class="nvidia">GTX 960</span> (2GB)</td>
+                    <td>20</td>
+                    <td>57</td>
+                    <td>57</td>
+                    <td>0.35</td>
+                    <td>0.35</td>
+                    <td>120</td>
+                    <td>12</td>
+                    <td>2</td>
+                    <td>Ideal para presupuestos extremadamente bajos.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 970</span> (4GB)</td>
+                    <td>40</td>
+                    <td>90</td>
+                    <td>90</td>
+                    <td>0.44</td>
+                    <td>0.44</td>
+                    <td>145</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>Gran rendimiento por un precio bajísimo.</td>
+                </tr>
+                    <tr>
+                    <td><span class="nvidia">GTX 1050 Ti</span> (4GB)</td>
+                    <td>35</td>
+                    <td>61</td>
+                    <td>61</td>
+                    <td>0.57</td>
+                    <td>0.57</td>
+                    <td>75</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>Bajo consumo y rendimiento sólido en 1080p.</td>
+                </tr>
+                    <tr>
+                    <td><span class="nvidia">GTX 1650</span> (4GB)</td>
+                    <td>50</td>
+                    <td>76</td>
+                    <td>76</td>
+                    <td>0.66</td>
+                    <td>0.66</td>
+                    <td>75</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>Bajo consumo y muy eficiente. Ideal para PC básicos.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 1060</span> (6GB)</td>
+                    <td>50</td>
+                    <td>97</td>
+                    <td>97</td>
+                    <td>0.52</td>
+                    <td>0.52</td>
+                    <td>120</td>
+                    <td>12</td>
+                    <td>6</td>
+                    <td>Muy popular. Gran rendimiento para 1080p.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 580</span> (8GB)</td>
+                    <td>50</td>
+                    <td>100</td>
+                    <td>100</td>
+                    <td>0.50</td>
+                    <td>0.50</td>
+                    <td>185</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Soporte FSR. Ideal para presupuestos ajustados.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 1650 Super</span> (4GB)</td>
+                    <td>60</td>
+                    <td>103</td>
+                    <td>103</td>
+                    <td>0.58</td>
+                    <td>0.58</td>
+                    <td>100</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>Muy eficiente y de bajo consumo.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">Radeon Vega 56</span> (8GB)</td>
+                    <td>75</td>
+                    <td>136</td>
+                    <td>136</td>
+                    <td>0.55</td>
+                    <td>0.55</td>
+                    <td>210</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Rendimiento de gama alta de su época.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">Radeon Vega 64</span> (8GB)</td>
+                    <td>90</td>
+                    <td>156</td>
+                    <td>156</td>
+                    <td>0.58</td>
+                    <td>0.58</td>
+                    <td>295</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Muy potente, pero consume mucha energía.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 7600</span> (8GB)</td>
+                    <td>200</td>
+                    <td>225</td>
+                    <td>225</td>
+                    <td>0.89</td>
+                    <td>0.89</td>
+                    <td>165</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Soporte para FSR y Ray Tracing.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 5500 XT</span> (8GB)</td>
+                    <td>65</td>
+                    <td>101</td>
+                    <td>101</td>
+                    <td>0.64</td>
+                    <td>0.64</td>
+                    <td>130</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Buen balance entre eficiencia y VRAM.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 590</span> (8GB)</td>
+                    <td>70</td>
+                    <td>108</td>
+                    <td>108</td>
+                    <td>0.65</td>
+                    <td>0.65</td>
+                    <td>225</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Rendimiento aceptable, pero con alto consumo.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 1660</span> (6GB)</td>
+                    <td>70</td>
+                    <td>114</td>
+                    <td>114</td>
+                    <td>0.61</td>
+                    <td>0.61</td>
+                    <td>120</td>
+                    <td>12</td>
+                    <td>6</td>
+                    <td>Excelente balance entre rendimiento y precio.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 1070</span> (8GB)</td>
+                    <td>70</td>
+                    <td>131</td>
+                    <td>131</td>
+                    <td>0.53</td>
+                    <td>0.53</td>
+                    <td>150</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Increíble relación precio/rendimiento.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 980</span> (4GB)</td>
+                    <td>80</td>
+                    <td>104</td>
+                    <td>104</td>
+                    <td>0.77</td>
+                    <td>0.77</td>
+                    <td>165</td>
+                    <td>12</td>
+                    <td>4</td>
+                    <td>Potencia de gama alta de su generación.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 1660 Super</span> (6GB)</td>
+                    <td>80</td>
+                    <td>124</td>
+                    <td>124</td>
+                    <td>0.65</td>
+                    <td>0.65</td>
+                    <td>125</td>
+                    <td>12</td>
+                    <td>6</td>
+                    <td>Gran salto de rendimiento desde la 1660.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 5600 XT</span> (6GB)</td>
+                    <td>80</td>
+                    <td>143</td>
+                    <td>143</td>
+                    <td>0.56</td>
+                    <td>0.56</td>
+                    <td>150</td>
+                    <td>12</td>
+                    <td>6</td>
+                    <td>Máximo rendimiento por euro en la gama media.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 1070 Ti</span> (8GB)</td>
+                    <td>85</td>
+                    <td>145</td>
+                    <td>145</td>
+                    <td>0.59</td>
+                    <td>0.59</td>
+                    <td>180</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Rendimiento cercano a una 1080.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 980 Ti</span> (6GB)</td>
+                    <td>90</td>
+                    <td>118</td>
+                    <td>118</td>
+                    <td>0.76</td>
+                    <td>0.76</td>
+                    <td>250</td>
+                    <td>12</td>
+                    <td>6</td>
+                    <td>Gran potencia, pero con muy alto consumo.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 2060</span> (6GB)</td>
+                    <td>95</td>
+                    <td>155</td>
+                    <td>209</td>
+                    <td>0.61</td>
+                    <td>0.45</td>
+                    <td>160</td>
+                    <td>12 Ultimate</td>
+                    <td>6</td>
+                    <td>Acceso a Ray Tracing y DLSS.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 6600</span> (8GB)</td>
+                    <td>100</td>
+                    <td>165</td>
+                    <td>165</td>
+                    <td>0.61</td>
+                    <td>0.61</td>
+                    <td>132</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Excelente eficiencia y rendimiento.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 6650 XT</span> (8GB)</td>
+                    <td>130</td>
+                    <td>209</td>
+                    <td>209</td>
+                    <td>0.62</td>
+                    <td>0.62</td>
+                    <td>176</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Versión mejorada de la 6600 XT con más rendimiento.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 5700</span> (8GB)</td>
+                    <td>110</td>
+                    <td>150</td>
+                    <td>150</td>
+                    <td>0.73</td>
+                    <td>0.73</td>
+                    <td>180</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Rendimiento similar a la 5600XT con más VRAM.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">GTX 1080</span> (8GB)</td>
+                    <td>115</td>
+                    <td>145</td>
+                    <td>145</td>
+                    <td>0.79</td>
+                    <td>0.79</td>
+                    <td>180</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Rendimiento de gama alta de la generación anterior.</td>
+                </tr>
+                    <tr>
+                    <td><span class="nvidia">GTX 1080 Ti</span> (11GB)</td>
+                    <td>130</td>
+                    <td>197</td>
+                    <td>197</td>
+                    <td>0.66</td>
+                    <td>0.66</td>
+                    <td>250</td>
+                    <td>12</td>
+                    <td>11</td>
+                    <td>El "rey" de la gama alta de su generación, aún muy potente.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 2060 Super</span> (8GB)</td>
+                    <td>120</td>
+                    <td>163</td>
+                    <td>220</td>
+                    <td>0.74</td>
+                    <td>0.55</td>
+                    <td>175</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Un salto significativo de la 2060, con más VRAM.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 3050</span> (8GB)</td>
+                    <td>130</td>
+                    <td>117</td>
+                    <td>158</td>
+                    <td>1.11</td>
+                    <td>0.82</td>
+                    <td>130</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Soporte para DLSS y Ray Tracing.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 5700 XT</span> (8GB)</td>
+                    <td>140</td>
+                    <td>178</td>
+                    <td>178</td>
+                    <td>0.79</td>
+                    <td>0.79</td>
+                    <td>225</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Similar a la 2070. Rendimiento muy alto.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 6600 XT</span> (8GB)</td>
+                    <td>140</td>
+                    <td>190</td>
+                    <td>190</td>
+                    <td>0.74</td>
+                    <td>0.74</td>
+                    <td>160</td>
+                    <td>12</td>
+                    <td>8</td>
+                    <td>Rendimiento muy alto con gran valor.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 2070</span> (8GB)</td>
+                    <td>150</td>
+                    <td>176</td>
+                    <td>238</td>
+                    <td>0.85</td>
+                    <td>0.63</td>
+                    <td>175</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Acceso a Ray Tracing y DLSS por bajo precio.</td>
+                </tr>
+                    <tr>
+                    <td><span class="nvidia">RTX 2070 Super</span> (8GB)</td>
+                    <td>165</td>
+                    <td>200</td>
+                    <td>270</td>
+                    <td>0.82</td>
+                    <td>0.61</td>
+                    <td>215</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Un gran salto de rendimiento sobre la 2070.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 3060</span> (12GB)</td>
+                    <td>170</td>
+                    <td>190</td>
+                    <td>257</td>
+                    <td>0.89</td>
+                    <td>0.66</td>
+                    <td>170</td>
+                    <td>12 Ultimate</td>
+                    <td>12</td>
+                    <td>Gran rendimiento y 12GB de VRAM.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 3070</span> (8GB)</td>
+                    <td>190</td>
+                    <td>281</td>
+                    <td>379</td>
+                    <td>0.68</td>
+                    <td>0.50</td>
+                    <td>220</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Excelente para gaming en 1440p.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 3070 Ti</span> (8GB)</td>
+                    <td>220</td>
+                    <td>300</td>
+                    <td>405</td>
+                    <td>0.73</td>
+                    <td>0.54</td>
+                    <td>290</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Gran salto de rendimiento sobre la 3070.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 4060</span> (8GB)</td>
+                    <td>190</td>
+                    <td>215</td>
+                    <td>290</td>
+                    <td>0.88</td>
+                    <td>0.66</td>
+                    <td>115</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Soporte para Ray Tracing y DLSS 3 con Frame Generation. Muy eficiente.</td>
+                </tr>
+                    <tr>
+                    <td><span class="nvidia">RTX 2080</span> (8GB)</td>
+                    <td>180</td>
+                    <td>214</td>
+                    <td>289</td>
+                    <td>0.84</td>
+                    <td>0.62</td>
+                    <td>215</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Rendimiento de gama alta, similar a la RTX 3070.</td>
+                </tr>
+                <tr>
+                    <td><span class="nvidia">RTX 2080 Ti</span> (11GB)</td>
+                    <td>240</td>
+                    <td>279</td>
+                    <td>377</td>
+                    <td>0.86</td>
+                    <td>0.64</td>
+                    <td>260</td>
+                    <td>12 Ultimate</td>
+                    <td>11</td>
+                    <td>La más potente de la serie 2000.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 6700 XT</span> (12GB)</td>
+                    <td>220</td>
+                    <td>242</td>
+                    <td>242</td>
+                    <td>0.91</td>
+                    <td>0.91</td>
+                    <td>230</td>
+                    <td>12</td>
+                    <td>12</td>
+                    <td>Rendimiento brutal y mucha VRAM.</td>
+                </tr>
+                <tr>
+                    <td><span class="amd">RX 6800</span> (16GB)</td>
+                    <td>300</td>
+                    <td>290</td>
+                    <td>290</td>
+                    <td>1.03</td>
+                    <td>1.03</td>
+                    <td>250</td>
+                    <td>12</td>
+                    <td>16</td>
+                    <td>La más potente y con más VRAM de la lista.</td>
+                </tr>
+                    <tr>
+                    <td><span class="intel">Intel Arc A580</span> (8GB)</td>
+                    <td>140</td>
+                    <td>163</td>
+                    <td>220</td>
+                    <td>0.86</td>
+                    <td>0.64</td>
+                    <td>175</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Soporte para Ray Tracing y XeSS.</td>
+                </tr>
+                    <tr>
+                    <td><span class="intel">Intel Arc B580</span> (12GB)</td>
+                    <td>250</td>
+                    <td>230</td>
+                    <td>311</td>
+                    <td>1.09</td>
+                    <td>0.80</td>
+                    <td>190</td>
+                    <td>12 Ultimate</td>
+                    <td>12</td>
+                    <td>Soporte para Ray Tracing y XeSS (escalado por IA).</td>
+                </tr>
+                    <tr>
+                    <td><span class="intel">Intel Arc A750</span> (8GB)</td>
+                    <td>161</td>
+                    <td>183</td>
+                    <td>247</td>
+                    <td>0.88</td>
+                    <td>0.65</td>
+                    <td>225</td>
+                    <td>12 Ultimate</td>
+                    <td>8</td>
+                    <td>Soporte para Ray Tracing y XeSS. Buen rendimiento.</td>
+                </tr>
+                <tr>
+                    <td><span class="intel">Intel Arc A770</span> (16GB)</td>
+                    <td>230</td>
+                    <td>197</td>
+                    <td>266</td>
+                    <td>1.17</td>
+                    <td>0.86</td>
+                    <td>225</td>
+                    <td>12 Ultimate</td>
+                    <td>16</td>
+                    <td>Soporte para Ray Tracing y XeSS. Gran cantidad de VRAM.</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', () => {
+            const table = document.getElementById('gpuTable');
+            const tbody = table.querySelector('tbody');
+            const ths = table.querySelectorAll('th');
+            
+            const getCellValue = (tr, idx) => {
+                const cellText = tr.children[idx].innerText || tr.children[idx].textContent;
+                return cellText;
+            };
+
+            const comparer = (idx, asc) => (a, b) => {
+                const dataType = ths[idx].dataset.type;
+                let v1 = parseFloat(getCellValue(asc ? a : b, idx).replace(/%/g, ''));
+                let v2 = parseFloat(getCellValue(asc ? b : a, idx).replace(/%/g, ''));
+                
+                if (dataType === 'number') {
+                    return v1 - v2;
+                } else {
+                    const str1 = getCellValue(asc ? a : b, idx);
+                    const str2 = getCellValue(asc ? b : a, idx);
+                    return str1.toString().localeCompare(str2);
+                }
+            };
+
+            ths.forEach(th => th.addEventListener('click', () => {
+                const index = Array.from(ths).indexOf(th);
+                
+                ths.forEach(header => {
+                    if (header !== th) {
+                        header.classList.remove('asc', 'desc');
+                    }
+                });
+
+                const asc = th.classList.contains('asc') ? false : true;
+                th.classList.toggle('asc', asc);
+                th.classList.toggle('desc', !asc);
+                
+                const rows = Array.from(tbody.querySelectorAll('tr')).sort(comparer(index, asc));
+                
+                rows.forEach(tr => tbody.appendChild(tr));
+            }));
+
+            function applyColorScale() {
+                const columnsToColor = [
+                    { index: 1, direction: 'low-is-good' }, // Precio (€)
+                    { index: 2, direction: 'high-is-good' }, // Rendimiento Relativo (%)
+                    { index: 3, direction: 'high-is-good' }, // Rendimiento Relativo con DLSS (%)
+                    { index: 4, direction: 'low-is-good' }, // Precio por Rendimiento
+                    { index: 5, direction: 'low-is-good' }, // Precio por Rendimiento con DLSS
+                    { index: 6, direction: 'low-is-good' }, // TDP (W)
+                    { index: 8, direction: 'high-is-good' }  // VRAM (GB)
+                ];
+
+                columnsToColor.forEach(col => {
+                    const cells = Array.from(tbody.querySelectorAll(`tr > td:nth-child(${col.index + 1})`));
+                    const values = cells.map(cell => parseFloat(cell.textContent.replace(/%/g, ''))).filter(val => !isNaN(val));
+
+                    if (values.length > 0) {
+                        const min = Math.min(...values);
+                        const max = Math.max(...values);
+                        const range = max - min;
+
+                        cells.forEach(cell => {
+                            const value = parseFloat(cell.textContent.replace(/%/g, ''));
+                            if (!isNaN(value)) {
+                                let hue;
+                                if (col.direction === 'high-is-good') {
+                                    hue = (value - min) / range * 120;
+                                } else {
+                                    hue = 120 - ((value - min) / range * 120);
+                                }
+                                cell.style.backgroundColor = `hsl(${hue}, 80%, 30%)`;
+                            }
+                        });
+                    }
+                });
+            }
+
+            applyColorScale();
+        });
+    </script>
+
+</body>
+</html>
