@@ -124,29 +124,29 @@ Radeon VII,3840.0,1400.0,GCN 5.0,Gaming,AMD,300.0,205.0,alta,2026-02-20,eBay Sol
 Radeon RX Vega 64 Liquid,4096.0,1406.0,GCN 5.0,Gaming,AMD,345.0,185.0,alta,2026-02-20,eBay Sold,15.0
 Radeon RX Vega 64,4096.0,1247.0,GCN 5.0,Gaming,AMD,295.0,165.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
 Radeon RX Vega 56,3584.0,1156.0,GCN 5.0,Gaming,AMD,210.0,135.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 5700 XT,2560.0,1605.0,RDNA 1,Gaming,AMD,225.0,175.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 5700,2304.0,1465.0,RDNA 1,Gaming,AMD,180.0,155.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 5600 XT,2304.0,1130.0,RDNA 1,Gaming,AMD,150.0,120.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 5500 XT,1408.0,1607.0,RDNA 1,Gaming,AMD,130.0,85.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 5300,1408.0,1327.0,RDNA 1,Gaming,AMD,100.0,60.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6950 XT,5120.0,1890.0,RDNA 2,Gaming,AMD,335.0,490.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
-Radeon RX 6900 XT,5120.0,1825.0,RDNA 2,Gaming,AMD,300.0,460.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
-Radeon RX 6800 XT,4608.0,1825.0,RDNA 2,Gaming,AMD,300.0,340.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6800,3840.0,1700.0,RDNA 2,Gaming,AMD,250.0,305.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
-Radeon RX 6750 XT,2560.0,2150.0,RDNA 2,Gaming,AMD,250.0,235.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6700 XT,2560.0,2321.0,RDNA 2,Gaming,AMD,230.0,240.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6650 XT,2048.0,2055.0,RDNA 2,Gaming,AMD,180.0,175.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6600 XT,2048.0,1968.0,RDNA 2,Gaming,AMD,160.0,165.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6600,1792.0,1626.0,RDNA 2,Gaming,AMD,132.0,140.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6500 XT,1024.0,2310.0,RDNA 2,Gaming,AMD,107.0,100.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 6400,768.0,1923.0,RDNA 2,Gaming,AMD,53.0,90.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 7900 XTX,6144.0,1900.0,RDNA 3,Gaming,AMD,355.0,790.0,alta,2026-02-20,eBay Sold + Milanuncios,15.0
-Radeon RX 7900 XT,5376.0,1500.0,RDNA 3,Gaming,AMD,315.0,560.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 7900 GRE,5120.0,1270.0,RDNA 3,Gaming,AMD,260.0,490.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 7800 XT,3840.0,1295.0,RDNA 3,Gaming,AMD,263.0,390.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 7700 XT,3456.0,1900.0,RDNA 3,Gaming,AMD,245.0,305.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 7600 XT,2048.0,1720.0,RDNA 3,Gaming,AMD,190.0,205.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
-Radeon RX 7600,2048.0,1720.0,RDNA 3,Gaming,AMD,165.0,185.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5700 XT,2560.0,1905.0,RDNA 1,Gaming,AMD,225.0,175.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5700,2304.0,1725.0,RDNA 1,Gaming,AMD,180.0,155.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5600 XT,2304.0,1560.0,RDNA 1,Gaming,AMD,150.0,120.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5500 XT,1408.0,1845.0,RDNA 1,Gaming,AMD,130.0,85.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5300,1408.0,1645.0,RDNA 1,Gaming,AMD,100.0,60.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6950 XT,5120.0,2310.0,RDNA 2,Gaming,AMD,335.0,490.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon RX 6900 XT,5120.0,2250.0,RDNA 2,Gaming,AMD,300.0,460.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon RX 6800 XT,4608.0,2250.0,RDNA 2,Gaming,AMD,300.0,340.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6800,3840.0,2105.0,RDNA 2,Gaming,AMD,250.0,305.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon RX 6750 XT,2560.0,2600.0,RDNA 2,Gaming,AMD,250.0,235.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6700 XT,2560.0,2581.0,RDNA 2,Gaming,AMD,230.0,240.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6650 XT,2048.0,2635.0,RDNA 2,Gaming,AMD,180.0,175.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6600 XT,2048.0,2589.0,RDNA 2,Gaming,AMD,160.0,165.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6600,1792.0,2491.0,RDNA 2,Gaming,AMD,132.0,140.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6500 XT,1024.0,2815.0,RDNA 2,Gaming,AMD,107.0,100.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6400,768.0,2321.0,RDNA 2,Gaming,AMD,53.0,90.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7900 XTX,6144.0,2500.0,RDNA 3,Gaming,AMD,355.0,790.0,alta,2026-02-20,eBay Sold + Milanuncios,15.0
+Radeon RX 7900 XT,5376.0,2400.0,RDNA 3,Gaming,AMD,315.0,560.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7900 GRE,5120.0,2293.0,RDNA 3,Gaming,AMD,260.0,490.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7800 XT,3840.0,2430.0,RDNA 3,Gaming,AMD,263.0,390.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7700 XT,3456.0,2544.0,RDNA 3,Gaming,AMD,245.0,305.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7600 XT,2048.0,2810.0,RDNA 3,Gaming,AMD,190.0,205.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7600,2048.0,2755.0,RDNA 3,Gaming,AMD,165.0,185.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
 Radeon Pro W7900,6144.0,1855.0,RDNA 3,Workstation,AMD,295.0,2655.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
 Radeon Pro W7800,4480.0,1855.0,RDNA 3,Workstation,AMD,260.0,1630.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
 Radeon Pro W7700,3072.0,1900.0,RDNA 3,Workstation,AMD,190.0,765.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
@@ -181,7 +181,7 @@ GeForce RTX 5060,3840.0,2280.0,Blackwell,Gaming,NVIDIA,145.0,285.0,alta,2026-02-
 GeForce RTX 5050,2560.0,,Blackwell,Gaming,NVIDIA,130.0,225.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
 Radeon RX 9070 XT,4096.0,2970.0,RDNA 4,Gaming,AMD,304.0,490.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
 Radeon RX 9070,3584.0,2520.0,RDNA 4,Gaming,AMD,220.0,390.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
-Radeon RX 7600 XT 16GB,2048.0,2755.0,RDNA 3,Gaming,AMD,190.0,215.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7600 XT 16GB,2048.0,2810.0,RDNA 3,Gaming,AMD,190.0,215.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
 Radeon RX 6750 GRE 12GB,2560.0,2581.0,RDNA 2,Gaming,AMD,230.0,225.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
 Radeon RX 6750 GRE 10GB,2304.0,2450.0,RDNA 2,Gaming,AMD,170.0,205.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
 RTX A5500,10240.0,,Ampere,Workstation,NVIDIA,230.0,1120.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
