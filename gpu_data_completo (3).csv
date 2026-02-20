@@ -1,0 +1,205 @@
+name,shaders,clock,arquitecture,gpu_type,vendor,TDP (W),buy_price_p10,price_confidence,last_price_update,price_source,sample_size
+GeForce GTX TITAN Z,5760.0,705.0,Kepler,Gaming,NVIDIA,375.0,180.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX TITAN Black,2880.0,889.0,Kepler,Gaming,NVIDIA,250.0,90.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX TITAN,2688.0,837.0,Kepler,Gaming,NVIDIA,250.0,80.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX 780 Ti,2880.0,876.0,Kepler,Gaming,NVIDIA,250.0,55.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX 780,2304.0,863.0,Kepler,Gaming,NVIDIA,250.0,50.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX 770,1536.0,1046.0,Kepler,Gaming,NVIDIA,230.0,45.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 760 Ti (OEM),1344.0,915.0,Kepler,Gaming,NVIDIA,170.0,40.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX 760,1152.0,980.0,Kepler,Gaming,NVIDIA,170.0,35.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 750 Ti,640.0,1020.0,Maxwell 1.0,Gaming,NVIDIA,60.0,35.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 750,512.0,1020.0,Maxwell 1.0,Gaming,NVIDIA,55.0,30.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GT 740,384.0,993.0,Kepler,Gaming,NVIDIA,64.0,20.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GT 730,384.0,902.0,Kepler,Gaming,NVIDIA,38.0,15.0,media,2026-02-20,eBay Sold,15.0
+GeForce GTX TITAN X,3072.0,1000.0,Maxwell 2.0,Gaming,NVIDIA,250.0,130.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX 980 Ti,2816.0,1000.0,Maxwell 2.0,Gaming,NVIDIA,250.0,110.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 980,2048.0,1126.0,Maxwell 2.0,Gaming,NVIDIA,165.0,85.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 970,1664.0,1050.0,Maxwell 2.0,Gaming,NVIDIA,145.0,70.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 960,1024.0,1127.0,Maxwell 2.0,Gaming,NVIDIA,120.0,55.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 950,768.0,1024.0,Maxwell 2.0,Gaming,NVIDIA,90.0,45.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+NVIDIA TITAN Xp,3840.0,1405.0,Pascal,Gaming,NVIDIA,250.0,285.0,alta,2026-02-20,eBay Sold,15.0
+NVIDIA TITAN X,3584.0,1417.0,Pascal,Gaming,NVIDIA,250.0,205.0,alta,2026-02-20,eBay Sold,15.0
+GeForce GTX 1080 Ti,3584.0,1480.0,Pascal,Gaming,NVIDIA,250.0,170.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1080,2560.0,1607.0,Pascal,Gaming,NVIDIA,180.0,155.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1070 Ti,2432.0,1607.0,Pascal,Gaming,NVIDIA,180.0,130.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1070,1920.0,1506.0,Pascal,Gaming,NVIDIA,150.0,90.0,media,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1060 6GB,1280.0,1506.0,Pascal,Gaming,NVIDIA,120.0,55.0,media,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1060 3GB,1152.0,1506.0,Pascal,Gaming,NVIDIA,120.0,55.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1050 Ti,768.0,1290.0,Pascal,Gaming,NVIDIA,75.0,70.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1050,640.0,1354.0,Pascal,Gaming,NVIDIA,75.0,55.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GT 1030,384.0,1227.0,Pascal,Gaming,NVIDIA,30.0,35.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1660 Ti,1536.0,1500.0,Turing,Gaming,NVIDIA,120.0,110.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1660 Super,1408.0,1530.0,Turing,Gaming,NVIDIA,125.0,90.0,media,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1660,1408.0,1530.0,Turing,Gaming,NVIDIA,120.0,95.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1650 Super,1280.0,1530.0,Turing,Gaming,NVIDIA,100.0,85.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1650 Ti,1024.0,1350.0,Turing,Gaming,NVIDIA,75.0,80.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce GTX 1650,896.0,1485.0,Turing,Gaming,NVIDIA,75.0,65.0,media,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce GTX 1630,512.0,1740.0,Turing,Gaming,NVIDIA,75.0,60.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+NVIDIA TITAN RTX,4608.0,1350.0,Turing,Gaming,NVIDIA,280.0,560.0,alta,2026-02-20,eBay Sold,15.0
+GeForce RTX 2080 Ti,4352.0,1350.0,Turing,Gaming,NVIDIA,250.0,270.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 2080 Super,3072.0,1650.0,Turing,Gaming,NVIDIA,250.0,285.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 2080,2944.0,1515.0,Turing,Gaming,NVIDIA,215.0,245.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 2070 Super,2560.0,1605.0,Turing,Gaming,NVIDIA,215.0,170.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 2070,2304.0,1410.0,Turing,Gaming,NVIDIA,175.0,195.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 2060 Super,2176.0,1470.0,Turing,Gaming,NVIDIA,175.0,165.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 2060 12GB,2176.0,1470.0,Turing,Gaming,NVIDIA,185.0,145.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 2060,1920.0,1365.0,Turing,Gaming,NVIDIA,160.0,120.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 3090 Ti,10752.0,1560.0,Ampere,Gaming,NVIDIA,450.0,715.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3090,10496.0,1395.0,Ampere,Gaming,NVIDIA,350.0,590.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3080 Ti,10240.0,1365.0,Ampere,Gaming,NVIDIA,350.0,490.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3080 12GB,8960.0,1260.0,Ampere,Gaming,NVIDIA,350.0,430.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3080,8704.0,1440.0,Ampere,Gaming,NVIDIA,320.0,370.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3070 Ti,6144.0,1575.0,Ampere,Gaming,NVIDIA,290.0,325.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3070,5888.0,1500.0,Ampere,Gaming,NVIDIA,220.0,270.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3060 Ti,4864.0,1410.0,Ampere,Gaming,NVIDIA,200.0,230.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3060,3584.0,1320.0,Ampere,Gaming,NVIDIA,170.0,170.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 3050 8GB,2560.0,1552.0,Ampere,Gaming,NVIDIA,130.0,155.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 3050 6GB,2304.0,1042.0,Ampere,Gaming,NVIDIA,70.0,130.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+GeForce RTX 4090,16384.0,2235.0,Ada Lovelace,Gaming,NVIDIA,450.0,1390.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4080 Super,10240.0,2295.0,Ada Lovelace,Gaming,NVIDIA,320.0,870.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4080,9728.0,2205.0,Ada Lovelace,Gaming,NVIDIA,320.0,770.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4070 Ti Super,8448.0,2340.0,Ada Lovelace,Gaming,NVIDIA,285.0,615.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4070 Ti,7680.0,2310.0,Ada Lovelace,Gaming,NVIDIA,285.0,490.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4070 Super,7168.0,1980.0,Ada Lovelace,Gaming,NVIDIA,220.0,460.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4070,5888.0,1920.0,Ada Lovelace,Gaming,NVIDIA,200.0,390.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4060 Ti 16GB,4352.0,2310.0,Ada Lovelace,Gaming,NVIDIA,160.0,325.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4060 Ti 8GB,4352.0,2310.0,Ada Lovelace,Gaming,NVIDIA,160.0,290.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 4060,3072.0,1830.0,Ada Lovelace,Gaming,NVIDIA,115.0,210.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 5090,21760.0,2400.0,Blackwell,Gaming,NVIDIA,600.0,1635.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 5080,10752.0,2205.0,Blackwell,Gaming,NVIDIA,400.0,920.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 5070 Ti,8960.0,2310.0,Blackwell,Gaming,NVIDIA,300.0,560.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 5070,6144.0,2160.0,Blackwell,Gaming,NVIDIA,250.0,460.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+RTX 6000 Blackwell,24064.0,,Blackwell,Workstation,NVIDIA,500.0,5610.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX 6000 Ada,18176.0,915.0,Ada Lovelace,Workstation,NVIDIA,300.0,3570.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX 5000 Ada,12800.0,1155.0,Ada Lovelace,Workstation,NVIDIA,250.0,1835.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX 4500 Ada,7680.0,2070.0,Ada Lovelace,Workstation,NVIDIA,210.0,920.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX 4000 Ada,6144.0,1500.0,Ada Lovelace,Workstation,NVIDIA,130.0,715.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX 2000 Ada,2816.0,1470.0,Ada Lovelace,Workstation,NVIDIA,70.0,355.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX A6000,10752.0,1410.0,Ampere,Workstation,NVIDIA,300.0,2035.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX A5000,8192.0,1170.0,Ampere,Workstation,NVIDIA,230.0,915.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX A4000,6144.0,735.0,Ampere,Workstation,NVIDIA,140.0,460.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Quadro RTX 8000,4608.0,1395.0,Turing,Workstation,NVIDIA,260.0,1835.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Quadro RTX 6000,4608.0,1440.0,Turing,Workstation,NVIDIA,260.0,920.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Quadro RTX 5000,3072.0,1620.0,Turing,Workstation,NVIDIA,265.0,460.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Quadro RTX 4000,2304.0,1005.0,Turing,Workstation,NVIDIA,160.0,285.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Quadro P6000,3840.0,1506.0,Pascal,Workstation,NVIDIA,250.0,355.0,alta,2026-02-20,eBay Sold,15.0
+Quadro P5000,2560.0,1607.0,Pascal,Workstation,NVIDIA,180.0,185.0,alta,2026-02-20,eBay Sold,15.0
+Quadro M6000 24GB,3072.0,988.0,Maxwell 2.0,Workstation,NVIDIA,250.0,285.0,alta,2026-02-20,eBay Sold,15.0
+Quadro M5000,2048.0,1050.0,Maxwell 2.0,Workstation,NVIDIA,150.0,120.0,alta,2026-02-20,eBay Sold,15.0
+B200,,,Blackwell,Server,NVIDIA,1000.0,15305.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+H200,16896.0,1755.0,Hopper,Server,NVIDIA,700.0,9185.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+H100,16896.0,1755.0,Hopper,Server,NVIDIA,700.0,7140.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+L40S,18176.0,1110.0,Ada Lovelace,Server,NVIDIA,350.0,2855.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+L40,18176.0,735.0,Ada Lovelace,Server,NVIDIA,300.0,2040.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+L4,7680.0,795.0,Ada Lovelace,Server,NVIDIA,72.0,815.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+A100 80GB,6912.0,1410.0,Ampere,Server,NVIDIA,400.0,3565.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+A40,10752.0,1305.0,Ampere,Server,NVIDIA,300.0,1220.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+A30,3584.0,930.0,Ampere,Server,NVIDIA,165.0,815.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla T4,2560.0,585.0,Turing,Server,NVIDIA,70.0,185.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla V100,5120.0,1245.0,Volta,Server,NVIDIA,250.0,610.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla P100,3584.0,1328.0,Pascal,Server,NVIDIA,250.0,130.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla M60,4096.0,899.0,Maxwell 2.0,Server,NVIDIA,300.0,60.0,alta,2026-02-20,eBay Sold,15.0
+Radeon R9 295X2,5632.0,1018.0,GCN 2.0,Gaming,AMD,500.0,140.0,alta,2026-02-20,eBay Sold,15.0
+Radeon R9 290X,2816.0,1000.0,GCN 2.0,Gaming,AMD,290.0,65.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 290,2560.0,947.0,GCN 2.0,Gaming,AMD,275.0,55.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 285,1792.0,918.0,GCN 3.0,Gaming,AMD,190.0,35.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 280X,2048.0,850.0,GCN 1.0,Gaming,AMD,250.0,45.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 280,1792.0,827.0,GCN 1.0,Gaming,AMD,250.0,40.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 270X,1280.0,1000.0,GCN 1.0,Gaming,AMD,180.0,35.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 Fury X,4096.0,1050.0,GCN 3.0,Gaming,AMD,275.0,110.0,alta,2026-02-20,eBay Sold,15.0
+Radeon R9 Fury,3584.0,1000.0,GCN 3.0,Gaming,AMD,275.0,90.0,alta,2026-02-20,eBay Sold,15.0
+Radeon R9 Nano,4096.0,1000.0,GCN 3.0,Gaming,AMD,175.0,100.0,alta,2026-02-20,eBay Sold,15.0
+Radeon R9 390X,2816.0,1050.0,GCN 2.0,Gaming,AMD,275.0,70.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 390,2560.0,1000.0,GCN 2.0,Gaming,AMD,275.0,70.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 380X,2048.0,970.0,GCN 3.0,Gaming,AMD,190.0,45.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon R9 380,1792.0,970.0,GCN 3.0,Gaming,AMD,190.0,40.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 590,2304.0,1469.0,GCN 4.0,Gaming,AMD,175.0,75.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 580,2304.0,1257.0,GCN 4.0,Gaming,AMD,185.0,65.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 570,2048.0,1168.0,GCN 4.0,Gaming,AMD,150.0,55.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 560,1024.0,1175.0,GCN 4.0,Gaming,AMD,80.0,45.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 480,2304.0,1120.0,GCN 4.0,Gaming,AMD,150.0,55.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 470,2048.0,926.0,GCN 4.0,Gaming,AMD,120.0,50.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 460,896.0,1090.0,GCN 4.0,Gaming,AMD,75.0,35.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon VII,3840.0,1400.0,GCN 5.0,Gaming,AMD,300.0,205.0,alta,2026-02-20,eBay Sold,15.0
+Radeon RX Vega 64 Liquid,4096.0,1406.0,GCN 5.0,Gaming,AMD,345.0,185.0,alta,2026-02-20,eBay Sold,15.0
+Radeon RX Vega 64,4096.0,1247.0,GCN 5.0,Gaming,AMD,295.0,165.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX Vega 56,3584.0,1156.0,GCN 5.0,Gaming,AMD,210.0,135.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5700 XT,2560.0,1605.0,RDNA 1,Gaming,AMD,225.0,175.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5700,2304.0,1465.0,RDNA 1,Gaming,AMD,180.0,155.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5600 XT,2304.0,1130.0,RDNA 1,Gaming,AMD,150.0,120.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5500 XT,1408.0,1607.0,RDNA 1,Gaming,AMD,130.0,85.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 5300,1408.0,1327.0,RDNA 1,Gaming,AMD,100.0,60.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6950 XT,5120.0,1890.0,RDNA 2,Gaming,AMD,335.0,490.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon RX 6900 XT,5120.0,1825.0,RDNA 2,Gaming,AMD,300.0,460.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon RX 6800 XT,4608.0,1825.0,RDNA 2,Gaming,AMD,300.0,340.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6800,3840.0,1700.0,RDNA 2,Gaming,AMD,250.0,305.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon RX 6750 XT,2560.0,2150.0,RDNA 2,Gaming,AMD,250.0,235.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6700 XT,2560.0,2321.0,RDNA 2,Gaming,AMD,230.0,240.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6650 XT,2048.0,2055.0,RDNA 2,Gaming,AMD,180.0,175.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6600 XT,2048.0,1968.0,RDNA 2,Gaming,AMD,160.0,165.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6600,1792.0,1626.0,RDNA 2,Gaming,AMD,132.0,140.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6500 XT,1024.0,2310.0,RDNA 2,Gaming,AMD,107.0,100.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6400,768.0,1923.0,RDNA 2,Gaming,AMD,53.0,90.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7900 XTX,6144.0,1900.0,RDNA 3,Gaming,AMD,355.0,790.0,alta,2026-02-20,eBay Sold + Milanuncios,15.0
+Radeon RX 7900 XT,5376.0,1500.0,RDNA 3,Gaming,AMD,315.0,560.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7900 GRE,5120.0,1270.0,RDNA 3,Gaming,AMD,260.0,490.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7800 XT,3840.0,1295.0,RDNA 3,Gaming,AMD,263.0,390.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7700 XT,3456.0,1900.0,RDNA 3,Gaming,AMD,245.0,305.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7600 XT,2048.0,1720.0,RDNA 3,Gaming,AMD,190.0,205.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 7600,2048.0,1720.0,RDNA 3,Gaming,AMD,165.0,185.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon Pro W7900,6144.0,1855.0,RDNA 3,Workstation,AMD,295.0,2655.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon Pro W7800,4480.0,1855.0,RDNA 3,Workstation,AMD,260.0,1630.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon Pro W7700,3072.0,1900.0,RDNA 3,Workstation,AMD,190.0,765.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon Pro W6800,3840.0,2075.0,RDNA 2,Workstation,AMD,250.0,920.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon Pro W6600,1792.0,2331.0,RDNA 2,Workstation,AMD,130.0,285.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon Pro W5700,2304.0,1400.0,RDNA 1,Workstation,AMD,205.0,185.0,alta,2026-02-20,eBay Sold,15.0
+Radeon Pro WX 9100,4096.0,1200.0,GCN 5.0,Workstation,AMD,230.0,355.0,alta,2026-02-20,eBay Sold,15.0
+Radeon Pro WX 7100,2304.0,1188.0,GCN 4.0,Workstation,AMD,130.0,185.0,alta,2026-02-20,eBay Sold,15.0
+FirePro W9100,2816.0,930.0,GCN 2.0,Workstation,AMD,275.0,120.0,alta,2026-02-20,eBay Sold,15.0
+Instinct MI300X,19456.0,2100.0,CDNA 3,Server,AMD,750.0,12245.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Instinct MI300A,14080.0,2100.0,CDNA 3,Server,AMD,760.0,15305.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Instinct MI250X,14080.0,1700.0,CDNA 2,Server,AMD,560.0,4595.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Instinct MI210,6656.0,1700.0,CDNA 2,Server,AMD,300.0,2855.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Instinct MI100,7680.0,1200.0,CDNA 1,Server,AMD,300.0,1835.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Instinct MI60,4096.0,1500.0,GCN 5.0,Server,AMD,300.0,410.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Instinct MI25,4096.0,1400.0,GCN 5.0,Server,AMD,300.0,205.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Arc A770 16GB,4096.0,2100.0,Xe-HPG,Gaming,Intel,225.0,185.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Arc A770 8GB,4096.0,2100.0,Xe-HPG,Gaming,Intel,225.0,165.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Arc A750,3584.0,2050.0,Xe-HPG,Gaming,Intel,225.0,135.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Arc A580,3072.0,1700.0,Xe-HPG,Gaming,Intel,185.0,110.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Arc A380,1024.0,2000.0,Xe-HPG,Gaming,Intel,75.0,70.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Arc A310,768.0,2000.0,Xe-HPG,Gaming,Intel,75.0,50.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Arc Pro A60,2048.0,900.0,Xe-HPG,Workstation,Intel,130.0,205.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Arc Pro A50,1024.0,2000.0,Xe-HPG,Workstation,Intel,75.0,155.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Arc Pro A40,1024.0,2000.0,Xe-HPG,Workstation,Intel,50.0,120.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Arc B580,2560.0,2670.0,Xe2-HPG,Gaming,Intel,190.0,225.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+Arc B570,2304.0,2500.0,Xe2-HPG,Gaming,Intel,150.0,200.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+Arc Pro B60,2048.0,2400.0,Xe2-HPG,Workstation,Intel,,305.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+GeForce RTX 5060 Ti 16GB,4608.0,2410.0,Blackwell,Gaming,NVIDIA,180.0,345.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 5060 Ti 8GB,4608.0,2410.0,Blackwell,Gaming,NVIDIA,180.0,325.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 5060,3840.0,2280.0,Blackwell,Gaming,NVIDIA,145.0,285.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+GeForce RTX 5050,2560.0,,Blackwell,Gaming,NVIDIA,130.0,225.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+Radeon RX 9070 XT,4096.0,2970.0,RDNA 4,Gaming,AMD,304.0,490.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+Radeon RX 9070,3584.0,2520.0,RDNA 4,Gaming,AMD,220.0,390.0,alta,2026-02-20,eBay Sold + elhacker.net,15.0
+Radeon RX 7600 XT 16GB,2048.0,2755.0,RDNA 3,Gaming,AMD,190.0,215.0,alta,2026-02-20,eBay Sold + Wallapop,15.0
+Radeon RX 6750 GRE 12GB,2560.0,2581.0,RDNA 2,Gaming,AMD,230.0,225.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Radeon RX 6750 GRE 10GB,2304.0,2450.0,RDNA 2,Gaming,AMD,170.0,205.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX A5500,10240.0,,Ampere,Workstation,NVIDIA,230.0,1120.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX A4500,7168.0,,Ampere,Workstation,NVIDIA,200.0,610.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX A2000 12GB,3328.0,,Ampere,Workstation,NVIDIA,70.0,205.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+RTX A2000 6GB,3328.0,,Ampere,Workstation,NVIDIA,70.0,185.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Quadro M4000,1280.0,1013.0,Maxwell 2.0,Workstation,NVIDIA,120.0,75.0,alta,2026-02-20,eBay Sold,15.0
+Quadro M2000,1024.0,,Maxwell 2.0,Workstation,NVIDIA,75.0,45.0,alta,2026-02-20,eBay Sold,15.0
+Radeon Pro W5500,1408.0,,RDNA 1,Workstation,AMD,125.0,100.0,alta,2026-02-20,eBay Sold,15.0
+Radeon Pro W5100,768.0,,GCN 4.0,Workstation,AMD,75.0,45.0,alta,2026-02-20,eBay Sold,15.0
+Radeon Pro VII,3840.0,1700.0,GCN 5.0,Workstation,AMD,250.0,225.0,alta,2026-02-20,eBay Sold,15.0
+B100,,,Blackwell,Server,NVIDIA,700.0,22440.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+H100 SXM5,16896.0,1755.0,Hopper,Server,NVIDIA,700.0,18360.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+H100 PCIe,16896.0,1755.0,Hopper,Server,NVIDIA,350.0,16320.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+H200 SXM5,16896.0,1755.0,Hopper,Server,NVIDIA,700.0,22440.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+H200 PCIe,16896.0,1755.0,Hopper,Server,NVIDIA,600.0,20400.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla V100 SXM2 32GB,5120.0,1380.0,Volta,Server,NVIDIA,300.0,715.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla V100 SXM2 16GB,5120.0,1380.0,Volta,Server,NVIDIA,300.0,560.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla V100 PCIe 32GB,5120.0,1380.0,Volta,Server,NVIDIA,250.0,815.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla P40,3840.0,1531.0,Pascal,Server,NVIDIA,250.0,185.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
+Tesla P4,2560.0,,Pascal,Server,NVIDIA,75.0,60.0,alta,2026-02-20,eBay Sold + Alibaba,15.0
