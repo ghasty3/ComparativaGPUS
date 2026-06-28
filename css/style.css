@@ -1,0 +1,92 @@
+body {
+    background-color: #0a0a0a;
+    color: #e5e5e5;
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+::-webkit-scrollbar-track {
+    background: #141414;
+}
+::-webkit-scrollbar-thumb {
+    background: #333333;
+    border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #404040;
+}
+
+.performance-bar {
+    transition: width 0.6s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.gpu-row {
+    transition: background-color 0.15s ease;
+}
+.gpu-row:hover {
+    background-color: #1a1a1a;
+}
+.gpu-row.active {
+    background-color: rgba(16, 185, 129, 0.1);
+    border-left: 3px solid #10b981;
+}
+
+.glass-header {
+    background: rgba(20, 20, 20, 0.95);
+    backdrop-filter: blur(10px);
+}
+
+.custom-input {
+    background-color: #1a1a1a;
+    border: 1px solid #333333;
+    transition: all 0.2s ease;
+}
+.custom-input:focus {
+    border-color: #10b981;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(16, 185, 129, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(10px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+.fade-in {
+    animation: fadeIn 0.4s ease forwards;
+}
+
+.tab-btn {
+    transition: all 0.2s ease;
+}
+.tab-btn.active {
+    background-color: #10b981;
+    color: white;
+}
+
+.sortable {
+    cursor: pointer;
+    user-select: none;
+}
+.sortable:hover {
+    color: #10b981;
+}
+.sort-icon {
+    display: inline-block;
+    margin-left: 4px;
+    font-size: 10px;
+    opacity: 0.5;
+}
+.sortable.active .sort-icon {
+    opacity: 1;
+    color: #10b981;
+}
+
+.price-card {
+    background: linear-gradient(135deg, #1a1a1a 0%, #262626 100%);
+    border: 1px solid #333333;
+}
+.price-card:hover {
+    border-color: #10b981;
+}
