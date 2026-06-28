@@ -65,7 +65,9 @@ function loadDemoData() {
 
 async function loadGPUDataFromCSV() {
     try {
-        const response = await fetch('gpu_data.csv');
+        const baseUrl = window.location.href.replace(/\/[^/]*$/, '');
+        const csvUrl = baseUrl + '/gpu_data.csv';
+        const response = await fetch(csvUrl, { cache: 'no-cache' });
         if (!response.ok) {
             console.log('No se encontró gpu_data.csv, cargando datos demo...');
             loadDemoData();
